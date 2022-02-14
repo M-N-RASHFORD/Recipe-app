@@ -1,0 +1,16 @@
+body{
+    position: relative;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    background: url('../Image/Foodimage_files/IMG_5392.JPG') center no-repeat;
+    background-size: cover;
+    font-family: century Gothic;
+}
+ul li{
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
