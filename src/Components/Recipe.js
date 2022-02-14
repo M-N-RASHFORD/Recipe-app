@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Link } from 'react-router-dom';
 
 const RecipeComponent = ({ recipes }) => {
     return (
@@ -12,8 +11,8 @@ const RecipeComponent = ({ recipes }) => {
                                 <img scr={recipe.image} width="150" height="200" alt=""/>
                             </div>
                             <h2>{recipe.title}</h2>
-                            <p>{recipe.summary}</p>
-                            <Link to={recipe.spoonacularSourceUrl}><button type="button">View</button></Link>
+                            <p>{recipe.creditsText}</p>
+                            <a href={recipe.spoonacularSourceUrl}><button type="button">View</button></a>
                         </li>
                     );
                 })}
