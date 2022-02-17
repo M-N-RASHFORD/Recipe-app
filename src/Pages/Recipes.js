@@ -1,6 +1,5 @@
 import React from 'react';
 import RecipeComponent from '../Components/Recipe';
-import '../Styles/Home.css';
 
 const Recipes = ({ history }) => {
     const [recipes, setRecipes] = React.useState([]);

@@ -6,18 +6,18 @@ body{
     background: url('../Image/Foodimage_files/IMG_5392.JPG') center no-repeat;
     background-size: cover;
     font-family: century Gothic;
+    display: flex;
+    align-items: stretch;
 }
 .li-content{
-    list-style-type: none;
     padding: 0;
     margin: 10px;
-    font-weight: bold;
-    font-size: 2em;
-}
-ul{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    width: 100%;
+    flex-direction: column;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: stretch;
 }

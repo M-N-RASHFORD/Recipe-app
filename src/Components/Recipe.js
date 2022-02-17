@@ -6,7 +6,7 @@ const RecipeComponent = ({ recipes }) => {
             <ul>
                 {recipes.map((recipe) => {
                     return (
-                        <li key={recipe.id}>
+                        <li key={recipe.id} className="li-content">
                             <div>
                                 <img scr={recipe.image} width="150" height="200" alt=""/>
                             </div>

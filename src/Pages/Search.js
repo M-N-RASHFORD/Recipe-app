@@ -15,7 +15,7 @@ const Search = () => {
     return (
         <div>
             <form>
-                <input type="text" placeholder="Enter ingredient, nutrient or key word"
+                <input type="text" placeholder="Enter ingredient, nutrient, grocery..."
                     onChange={(event) => {setSearchRecipe(event.target.value)}}
                 />
              </form>
